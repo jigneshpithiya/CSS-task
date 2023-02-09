@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(to left,red,blue);
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            margin-top: 200px;
+            margin-left: 500px;
+            border: 10px solid ;
+            border-radius: 50%;
+            border-top:10px solid darkgray ;
+            border-right:10px solid transparent ;
+            border-left: 10px solid transparent;
+            border-bottom: 10px solid transparent ;
+            animation: preloader 4s infinite linear;
+
+        }
+        @keyframes preloader{
+           0% {border-top-color:rgb(10, 7, 3); transform: rotate(72deg);}
+            25%{border-right-color:rgb(10, 7, 3);transform: rotate(142deg);}
+            50%{border-bottom-color:rgb(10, 7, 3);transform: rotate(216deg);} 
+           100%{border-left-color:rgb(10, 7, 3);transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+  <div></div>  
+</body>
+</html>
