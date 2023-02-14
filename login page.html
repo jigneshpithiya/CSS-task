@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image:url(login\ form\ img2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+            
+        }
+        .main{
+            background-color:rgb(111,111,120) ;
+            height: 350px;
+            width: 300px;
+            margin-top: 50px;
+            margin-left:350px;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Gill Sans", sans-serif;
+            
+            box-shadow: 3px 3px 5px 5px;
+            
+        }
+        h2{
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+          input{
+            padding: 5px;
+            border: none;
+            width: 225px;
+            margin-left: 39px;
+            margin-top:15px ;
+            position: relative;
+            border: none; 
+        }
+         .eml i{
+           position: absolute;
+           margin-left:15px;
+           margin-top: 15px;
+           background-color: white;
+           padding: 5px;
+          
+        }
+        .pwd i{
+           position: absolute;
+           margin-left:15px;
+           margin-top: 15px;
+           background-color: white;
+           padding: 5px;
+        }
+       a{
+            margin-left: 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .btn{
+            padding: 5px;
+            width: 260px;
+            margin-left: 15px;
+            margin-top:10px ;
+            background-color:cornflowerblue;
+            border: none;
+        }
+        .one {
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            margin-left: 100px;
+            margin-top:10px ;
+        }
+        .btn1,.btn2{
+            width: 125px ;
+            margin-left: 15px;
+            margin-top: 10px;
+            padding: -5px;
+            background-color: blue;
+            color: white;
+            border: none;
+            text-align: center;
+            }
+
+        .btn1 i{
+            background-color: blue;
+             padding: 8px;
+            
+        }
+          .btn2{
+           background-color: #e95950;
+           margin-left: 5px;
+          
+        } 
+        .btn2 i{
+            background-color:#e95950;
+             padding: 8px;
+            
+            }
+       
+        p{
+            color: white;
+            text-decoration: none;
+            margin-left: 40px;
+         }
+        p a{
+            text-decoration: none;
+            color: blue;
+        }
+     </style>
+</head>
+<body>
+    <div class="main">
+        <h2>LOGIN FORM</h2>
+        
+        <form action="#">
+            <div class="eml">
+                <i class="fa-solid fa-user"></i>
+            <input type="text"name="User name" placeholder="Email Or Phone">
+            </div>
+            <div class=" pwd">
+                <i class="fa-solid fa-lock"></i>           
+            <input type="password" name="psw" placeholder="password">
+            </div>
+            <br>
+            <span><a href="#">forgot password?</a></span>
+            <br>
+            <button class="btn">Login</button>
+            <br>
+            <br>
+            <a class="one" href="#">Or login with</a>
+            <br>
+            <button class="btn1"  ><i class="fa-brands fa-facebook"></i>facebook</button>
+            <button  class="btn2"> <i class="fa-brands fa-instagram"></i>Instagram</button>
+            <br>
+            <br>
+            <p>don't have account?<a href="#">signup now</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
